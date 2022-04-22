@@ -34,10 +34,10 @@ body {
     padding: 20px 0;
 }
 
-    .left .img_holder img {
-        width: 200px;
-        border-radius: 30px;
-    }
+.left .img_holder img {
+    width: 200px;
+    border-radius: 30px;
+}
 
 .pb {
     padding-bottom: 20px;
@@ -73,7 +73,7 @@ body {
 .left .text {
     color: #fff;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .contact .li_wrap {
@@ -83,22 +83,22 @@ body {
     margin-bottom: 15px;
 }
 
-    .contact .li_wrap .icon {
-        width: 50px;
-        height: 50px;
-        background: #374785;
-        border-radius: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 15px;
-    }
+.contact .li_wrap .icon {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
 
-    .contact .li_wrap .text {
-        width: calc(100% - 50px);
-        word-break: break-word;
-        color: #fff;
-    }
+.contact .li_wrap .text {
+    width: calc(100% - 50px);
+    word-break: break-word;
+    color: #fff;
+}
 
 .skills ul,
 .hobbies ul {
@@ -123,10 +123,24 @@ body {
     border: 2px solid #fff;
 }
 
-    .skills .li_wrap .text,
-    .hobbies .li_wrap .text {
-        margin-top: 5px;
-    }
+.skills .li_wrap .icon,
+.skills .li_wrap .text {
+    color: #fff;
+}
+
+.skills .li_wrap:hover {
+    background: #fff;
+}
+
+.skills .li_wrap:hover .icon,
+.skills .li_wrap:hover .text {
+    color: #374785
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text {
+    margin-top: 5px;
+}
 
 .hobbies .li_wrap {
     border: 2px solid #fff;
@@ -148,13 +162,13 @@ body {
 
 .header {
     background: #F8E9A1;
-    padding: 15px 30px;
+    padding: 9px 30px;
     color: #374785;
     height: 240px;
 }
 
     .header .name {
-        font-size: 52px;
+        font-size: 46px;
         text-transform: uppercase;
         font-weight: 700;
         color: #374785;
@@ -162,12 +176,12 @@ body {
 
     .header .role {
         font-weight: 300;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .header .about {
-        margin-top: 20px;
-        line-height: 26px;
+        margin-top: 6px;
+        line-height: 20px;
     }
 
 .right_inner {
@@ -210,6 +224,7 @@ body {
 
         .right_inner .li_wrap .info_cont {
             margin-top: 15px;
+            font-size: 15px;
         }
 
         .right_inner .li_wrap .info:before {
