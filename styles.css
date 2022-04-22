@@ -9,7 +9,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #4287f5, #44c5db);
+    background: linear-gradient(to right, #A8D0E6, #A8D0E6);
 }
 
 .CV {
@@ -20,7 +20,7 @@ body {
 }
 
 .left {
-    background: #36393d;
+    background: #F76C6C;
     width: 250px;
     padding: 0 20px;
 }
@@ -49,29 +49,29 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     padding-bottom: 10px;
-    color: #3525af;
+    color: #374785;
     position: relative;
     text-align: right;
     margin-bottom: 15px;
 }
 
-    .title:before {
-        content: "";
-        position: absolute;
-        top: 35px;
-        right: 0;
-        width: 50px;
-        height: 3px;
-        background: #3525af;
-    }
+.title:before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: #374785;
+}
 
 .left .icon {
     font-size: 20px;
-    color: #9153c9;
+    color: #fff;
 }
 
 .left .text {
-    color: #9153c9;
+    color: #fff;
     text-transform: uppercase;
     font-size: 13px;
 }
@@ -86,7 +86,7 @@ body {
     .contact .li_wrap .icon {
         width: 50px;
         height: 50px;
-        background: #fff;
+        background: #374785;
         border-radius: 15px;
         display: flex;
         align-items: center;
@@ -120,7 +120,7 @@ body {
 }
 
 .skills .li_wrap {
-    background: #fff;
+    border: 2px solid #fff;
 }
 
     .skills .li_wrap .text,
@@ -143,13 +143,13 @@ body {
 
         .hobbies .li_wrap:hover .icon,
         .hobbies .li_wrap:hover .text {
-            color: #9153c9;
+            color: #374785;
         }
 
 .header {
-    background: #292b2f;
+    background: #F8E9A1;
     padding: 15px 30px;
-    color: #fff;
+    color: #374785;
     height: 240px;
 }
 
@@ -157,7 +157,7 @@ body {
         font-size: 52px;
         text-transform: uppercase;
         font-weight: 700;
-        color: #3525af;
+        color: #374785;
     }
 
     .header .role {
@@ -172,7 +172,7 @@ body {
 
 .right_inner {
     padding: 30px;
-    color: #292b2f;
+    color: #374785;
 }
 
     .right_inner .education {
@@ -186,7 +186,7 @@ body {
 
         .right_inner .li_wrap .date {
             width: 125px;
-            color: #9153c9;
+            color: #374785;
         }
 
         .right_inner .li_wrap .info {
@@ -199,7 +199,7 @@ body {
             text-transform: uppercase;
             font-weight: 700;
             letter-spacing: 2px;
-            color: #9153c9;
+            color: #374785;
         }
 
         .right_inner .li_wrap .info_com {
@@ -219,7 +219,7 @@ body {
             left: 0;
             width: 10px;
             height: 10px;
-            background: #9153c9;
+            background: #374785;
             border-radius: 50%;
         }
 
@@ -230,5 +230,5 @@ body {
             left: 4px;
             width: 2px;
             height: 90%;
-            background: #9153c9;
+            background: #374785;
         }
